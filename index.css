@@ -1,0 +1,83 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    transition: background-color 0.3s, padding 0.3s;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: #fff;
+    background-color: #00f2ffe9; /* Background color when hovering over a menu item */
+}
+
+/* Content Sections */
+.content {
+    padding-top: 80px; /* Adjust based on the navbar height */
+}
+
+section {
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blueviolet;
+    border-bottom: 1px solid #fa0404eb;
+}
+
+.section b:hover {
+    color: #fff;
+    background-color: #ff6600; /* Background color when hovering over a menu item */
+}
+
+#home {
+    background: yellowgreen;
+}
+
+#services {
+    background-color: palevioletred;
+}
+
+#about {
+    background-color: #012bfe;
+}
+
+#contact {
+    background-color: #ff1500;
+}
